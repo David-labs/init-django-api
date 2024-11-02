@@ -1,0 +1,121 @@
+
+db.sqlite3
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+pulbic/
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.o
+*.obj
+*.so
+*.pycache/
+*.pyo
+*.orig
+*.cover
+
+# Global exclude for Python cache folders
+**/__pycache__/
+**/*.py[cod]
+
+# Django stuff:
+*.log
+staticfiles/
+static/
+media/
+
+# If you are using Django Compressor
+compressor_storage/
+
+# Flask instance folder
+instance/
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django migrations
+migrations/
+
+# django secret key file
+.secret
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+venv.bak/
+env.bak/
+envrc
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# MySQL
+*.db
+
+# Local .env files
+.env
+db.sqlite3
